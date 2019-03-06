@@ -3,8 +3,8 @@ var router = express.Router();
 var colors = require('../colors.json');
 
 //router.get('/all', function(req, res, next) {
-	res.send(colors.colors);
-});
+//	res.send(colors.colors);
+//});
  
 router.get('/:color', function(req, res, next) {
 	for (var color in colors.colors) {
